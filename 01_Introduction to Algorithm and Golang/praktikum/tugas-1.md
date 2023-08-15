@@ -15,7 +15,7 @@
     * Docker
     * Postman
     * IDE atau code editor seperti Sublime dan Vs Code.
-3. [Flowchart di folder Screenshots](https://github.com/nurulalyh/Go_Nurul-Aliyah-Dyah-Sakhinah/tree/cd80424f165d973b81d585076cf6fb8893cb6a31/01_Introduction%20to%20Algorithm%20and%20Golang/praktikum)
+3. [Flowchart di folder Screenshots](https://github.com/nurulalyh/Go_Nurul-Aliyah-Dyah-Sakhinah/blob/ab1ca2b1dd9000bcce788d4de6d434938c775534/01_Introduction%20to%20Algorithm%20and%20Golang/screenshots/Flowchart%20Luas%20Trapesium.jpg)
 
 ### Referensi
 1. [Nomor 1](https://academy.alterra.id/blog/7-bahasa-pemrograman-untuk-pemula/)
