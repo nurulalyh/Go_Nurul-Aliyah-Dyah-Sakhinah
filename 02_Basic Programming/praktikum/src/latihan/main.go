@@ -6,7 +6,7 @@ func main(){
 	// VARIABEL DAN TIPE DATA
 	// var usia int
 	// var nickname string = "lulu"
-	// var firstname, lastname = "Nurul", "Aliyah"
+	var firstname, lastname = "Nurul", "Aliyah"
 	// gender := "wanita"
 	// usia = 16
 	// const pi float64 = 3.14
@@ -18,7 +18,7 @@ func main(){
 	// )
 	// var islogin bool = false
 
-	// fmt.Println("Full Name :", firstname, lastname)
+	fmt.Println("Full Name :", firstname, lastname)
 	// fmt.Println(lastname)
 	// fmt.Println(nickname)
 	// fmt.Println(gender)
@@ -96,16 +96,16 @@ func main(){
 	// 	fmt.Println(i)
 	// }
 
-	//LOOPING OVER STRING
-	sentence := "Hello"
+	// //LOOPING OVER STRING
+	// sentence := "Hello"
 
-	for i := 0; i < len(sentence); i++ {
-		fmt.Printf(string(sentence[i]) + "-") //Println otomatis enter, Printf lanjut kesebelahnya
-	}
-	fmt.Println("      ----->>>")
-	for pos, char := range sentence{
-		fmt.Printf("character %c start at byte position %d\n", char, pos) 
-		// %c Digunakan untuk memformat data numerik yang merupakan kode unicode, menjadi bentuk string karakter unicode-nya.
-		// %d Digunakan untuk memformat data numerik, menjadi bentuk string numerik berbasis 10
-	}
+	// for i := 0; i < len(sentence); i++ {
+	// 	fmt.Printf(string(sentence[i]) + "-") //Println otomatis enter, Printf lanjut kesebelahnya
+	// }
+	// fmt.Println("      ----->>>")
+	// for pos, char := range sentence{
+	// 	fmt.Printf("character %c start at byte position %d\n", char, pos) 
+	// 	// %c Digunakan untuk memformat data numerik yang merupakan kode unicode, menjadi bentuk string karakter unicode-nya.
+	// 	// %d Digunakan untuk memformat data numerik, menjadi bentuk string numerik berbasis 10
+	// }
 }

@@ -1,12 +1,13 @@
 # (2) Basic Programming
 
 ## Golang
-Golang merupakan salah satu bahasa pemrograman yang open source yang dikembangkan oleh google untuk backend yang sedang populer saat ini. Bahasa ini dikembangkan dengan tujuan memudahkan development tapi tetap simple, efisien, dan handal. Di masa depan, golang digunakan di banyak bidang mulai dari devOps hingga data scientist.Contoh penggunaan Golang untuk development yaitu aplikasi e-commerce, social media, API, dan aplikasi CLI. Sejarah golang :
+Golang merupakan salah satu bahasa pemrograman yang open source yang dikembangkan oleh google untuk backend yang sedang populer saat ini. Bahasa ini dikembangkan dengan tujuan memudahkan development tapi tetap simple, efisien, dan handal. Di masa depan, golang digunakan di banyak bidang mulai dari devOps hingga data scientist.Contoh penggunaan Golang untuk development yaitu aplikasi e-commerce, social media, API, dan aplikasi CLI. 
+<!-- Sejarah golang :
 1. akhir 2007 - pertengahan 2008 => Pengembangan.
 2. November 2009 => Dirilis ke publik.
 3. Maret 2012 => Rilis versi 1.0.
 4. Februari 2019 => Rilis versi 1.12.
-5. September 2021 => Rilis versi 1.16.
+5. September 2021 => Rilis versi 1.16. -->
 
 Persiapan untuk memulai mempelajari Golang:
 1. IDE => Vs Code, GoLand, Atom, Vim
@@ -16,7 +17,6 @@ Persiapan untuk memulai mempelajari Golang:
     * pkg : berisi go package
     * src : berisi go source file
 4. Setting Gopath
-5. Start Coding
 
 ## Variabel dan tipe data
 Variabel merupakan tempat untuk menyimpan data yang memiliki nama yang unik yang akan dipanggil jika data yang disimpan oleh variabel tersebut dibutuhkan. Variabel hanya dapat menampung data dengan tipe data yang sama. Tipe data pada golang :
@@ -55,11 +55,9 @@ Untuk menggunakan branching (percabangan), dapat menggunakan keyword `if, else i
 
 Looping (perulangan) menggunakan keyword `for`, `continue`, dan `break`. `continue` memaksakan perulangan berlanjut atau diskip ke perulangan selanjurnya, sedangkan `break` menghentikan paksa perulangan.
 
-`Println` untuk mencetak dengan otomatis enter, sedangkan `Printf` mencetak tanpa melakukan enter dan tetap lanjut kesebelahnya.
+`%c` dan `%d` merupakan format verb yang memiliki fungsi tersendiri.
 
-`%c` Digunakan untuk memformat data numerik yang merupakan kode unicode, menjadi bentuk string karakter unicode-nya. `%d` Digunakan untuk memformat data numerik, menjadi bentuk string numerik berbasis 10.
-
-### Note
+<!-- ### Note
 Syntax pada golang :
 1. `fmt` => package untuk menghandle input-output pada golang
 2. Deklarasi variabel :
@@ -103,4 +101,4 @@ Syntax pada golang :
 
         `perintah3`
 
-    `}` => Penulisan branching `switch case`
+    `}` => Penulisan branching `switch case` -->
