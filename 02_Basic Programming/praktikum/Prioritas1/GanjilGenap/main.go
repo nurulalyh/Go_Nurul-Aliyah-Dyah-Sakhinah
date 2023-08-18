@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var bil int8
+	var bil int16
 	var tryAgain string
 
 	for {
