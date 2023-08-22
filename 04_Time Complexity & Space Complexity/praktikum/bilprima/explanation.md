@@ -1,0 +1,5 @@
+# Time Complexity Program Menentukan Bilangan Prima
+
+Pada Program ini, saya membuat satu fungsi yaitu primeNumber yang akan menjalankan proses untuk memeriksa sebuah bilangan prima atau tidak. Berikut analisis Time Complexity dari function tersebut.
+
+Pada function tersebut, terdapat beberapa proses yaitu memeriksa apakah input <=1, proses mencari akar kuadrat dari input, dan perulangan dari 2 hingga akar kuadrat dari input untuk memeriksa apakah input habis dibagi 2 hingga akar kuadrat nya. Selain perulangan, semua proses memiliki Time Complexity O(1) atau konstan karena prosesnya tidak terpengaruh oleh banyaknya inputan. Sedangkan perulangan `for` dalam kasus terburuk, jumlah iterasi adalah sekitar akar kuadrat dari number, yaitu √n tergantung berapa inputannya. Sehingga kompleksitas waktu iterasi loop adalah O(√n). Jadi, kompleksitas waktu fungsi primeNumber secara keseluruhan dapat dianggap sebagai O(√n). Ini berarti bahwa semakin besar nilai number, semakin lama waktu yang dibutuhkan untuk mengecek apakah bilangan tersebut merupakan bilangan prima.
