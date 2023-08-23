@@ -13,12 +13,14 @@ Slice mirip seperti array, tapi slice ukurannya dinamis atau dapat berubah-berub
 Selain pointer, slice juga memiliki length (len) atau panjang slice dan capacity (cap) atau kapasitas maximum slice. Karena slice bersifat dinamis, maka len akan berubah-rubah sesuai jumlah elemen dalam slice, sedangkan cap akan berubah 2x lipat dari cap sebelumnya ketika ditambah elemen baru diluar kapasitas slice sebelumnya.
 
 Cara deklarasi slice => `var <namaSlice> []<tipeData>` dan `var <namaSlice> = []<tipeData>{<value>}`
+
 Cara deklarasi Map menggunakan `make()` => `var <namaSlice> = make([]<tipeData>,5,10)`
 
 ## Map
 Map merupakan struktur data yang memiliki key (bersifat unik) dan value.
 
 Cara deklarasi Map => var harga = `map[string]int{"siomay":1000, "batagor":2000}`
+
 Cara deklarasi Map menggunakan `make()` => `var harga = make(map[string]int)`
 
 ## Function
