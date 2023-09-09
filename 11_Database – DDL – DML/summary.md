@@ -8,27 +8,25 @@ Database Relationship :
 Relational Database Management Systems (RDBMS) merupakan software yang menggunakan Relational Database Model sebagai dasarnya. Contohnya : MuSQL, PostgreSQL, dll.
 
 Jenis perintah SQL :
-1. DDL (Data Definition Language) => untuk mendefinisikan, mengelola, dan mengatur struktur database.
-    Contoh Statement :
-        - Create Database
-        - Create Table
-        - Drop Table
-        - Rename Table
-        - Drop Database
-        - Alter Table
-        - Add Column
-        - Dll...
-2. DML (Data Manipulation Language) => untuk memanipulasi data dalam table dari suatu database
-    Contoh Statement :
-        - Insert
-        - Select
-        - Update
-        - Delete
-        - Like/Between
-        - And/Or
-        - Order By 
-        - Limit
-3. DCL (Data Control Language)
+1. DDL (Data Definition Language) => untuk mendefinisikan, mengelola, dan mengatur struktur database. Contoh Statement :
+    - Create Database
+    - Create Table
+    - Drop Table
+    - Rename Table
+    - Drop Database
+    - Alter Table
+    - Add Column
+    - Dll...
+3. DML (Data Manipulation Language) => untuk memanipulasi data dalam table dari suatu database. Contoh Statement :
+    - Insert
+    - Select
+    - Update
+    - Delete
+    - Like/Between
+    - And/Or
+    - Order By 
+    - Limit
+4. DCL (Data Control Language)
 
 Tipe Data MySQL :
 1. Num
