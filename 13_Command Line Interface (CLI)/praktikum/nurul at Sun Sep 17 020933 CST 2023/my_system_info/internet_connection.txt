@@ -1,0 +1,5 @@
+PING forcesafesearch.google.com (64.233.170.100) 56(124) bytes of data.
+
+--- forcesafesearch.google.com ping statistics ---
+48 packets transmitted, 0 received, 100% packet loss, time 48909ms
+
