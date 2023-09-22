@@ -1,32 +1,28 @@
-# (15) RESTful API
+# (18) Middleware
 
-API (Application Programming Interface) adalah kumpulan function dan prosedur yang memungkinkan sebuah aplikasi yang mengakses fitur atau data suatu sistem operasi, aplikasi, atau layanan lainnya. API itu seperti messenger yang mengambil permintaan dari aplikasi dan meneruskannya ke server dan server akan memberikan apa yang diminta ke API dan API yang mengembalikannya ke aplikasi.
+Middleware merupakan entitiy yang dipasangkan ke dalam proses server. Middleware memiliki fungsi-fungsi khusus yang akan membantu komunikasi klien dan server. Terdapat 4 layer fungsi middleware, yaitu :
+- LoggingMiddleware => mencatat log-log yang keluar masuk server
+- SessionMiddleware => mencatat aktif tidaknya user di dalam aplikasi
+- AuthMiddleware => mengauntentifikasi user berhak masuk atau tidak
+- CustomMiddleware => Jika third party middleware tidak menyediakan fungsi yang diinginkan, maka dapat dibuat sendiri
 
-REST (Representational State Transfer) salah satu jenis API yang menggunakan protokol HTTP. Request dan response nya dalam bentuk JSON (Javascript Object Notation), XML, dan SOAP. Terdapat beberapa method yang dapat digunakan dalam RESTful API yaitu Get, Post, Put, Delete, Head, Option, dan Patch.
+Contoh Third Party Middleware :
+- Negroni
+- Echo
+- Interpose
+- Alice
 
-RESTful API digunakan untuk mengintegrasikan aplikasi berbasis frontend (mobile dan web) dengan yang backend. Keunggulan RESTful API adalah dengan 1 backend, kita dapat menjawab semua request dari berbagai aplikasi frontend. RESTful API juga dapat digunakan untuk Integrasi backend - backend.
+Middleware di echo dibagi menjadi 2 jenis, yaitu :
+- Echo#Pre() => Dieksekusi sebelum route nya masuk ke controller. Contoh : HTTPSRedirect, AddTrailingSlash, dll.
+- Echo#Use() => Dieksekusi saat route nya masuk ke controller. Contoh : BodyLimit, Logger, JWTAuth, Gzip, Static, CORS, dll.
 
-Jenis HTTP Response Code :
-1. 200 - OK
-2. 201 - Created
-3. 400 - Bad Request
-4. 404 - Not Found
-5. 401 - Unauthorized
-6. 405 - Method Not Allowed
-7. 500 - Internal Server Error
+Fungsi di Echo Middleware :
+- HTTPSRedirect => mengarahkan user ke HTTPS untuk keamanan.
+- Logger (Logger Middleware) => mencatat apa yang terjadi di dalam server khususnya request.
+- JWT (Auth Middleware) => sebuah proses dalam API untuk mengidentifikasi user dari sisi server dengan cara memvalidasi sebelum mengakses API agar keamanan data terjamin. 
 
-API testing tools :
-1. Katalon
-2. Apache JMeter
-3. Postman => HTTP client untuk melakukan testing web services.
-4. SoapUI
-5. Insomnia
+Basic Authentication sebuah teknik autentikasi user yang membutuhkan data username dan password dari user untuk di insert ke request header. Aturan penulisan pada Basic Authentication :
+`'Authorization: Basic' + base64encode('username:password')`
 
-REST API Design Best Practice :
-1. menggunakan kata benda, bukan kata kerja.
-2. penamaan menggunakan kata benda jamak
-3. menggunakan resource nesting untuk menunjukkan hirarki
-
-Package go yang digunakan :
-1. net/http => menyediakan implementasi http client and server.
-2. encoding/json => decode json ke object struct, map[string]interface, dan interface[]. Encode object ke json string.
+Jika Basic Authentication hanya terdiri dari satu token, JWT terdiri dari 3 token yang dipisahkan tanda titik, yaitu header (algoritma dan type), payload (data), dan verify signature. Aturan penulisan JWT :
+`'Authorization: Bearer' + token`
