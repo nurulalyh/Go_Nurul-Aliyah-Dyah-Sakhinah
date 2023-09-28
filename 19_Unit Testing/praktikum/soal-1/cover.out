@@ -1,0 +1,5 @@
+mode: set
+lib/calculate/calculate.go:3.28,6.2 2 1
+lib/calculate/calculate.go:7.29,10.2 2 1
+lib/calculate/calculate.go:11.24,14.2 2 1
+lib/calculate/calculate.go:15.23,18.2 2 1
