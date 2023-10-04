@@ -1,0 +1,16 @@
+mode: set
+clean_arc/features/users/usecase/logic.go:15.53,19.2 1 1
+clean_arc/features/users/usecase/logic.go:21.59,23.16 2 1
+clean_arc/features/users/usecase/logic.go:28.2,28.12 1 1
+clean_arc/features/users/usecase/logic.go:23.16,26.3 2 1
+clean_arc/features/users/usecase/logic.go:31.79,33.16 2 1
+clean_arc/features/users/usecase/logic.go:40.2,40.20 1 1
+clean_arc/features/users/usecase/logic.go:33.16,34.95 1 1
+clean_arc/features/users/usecase/logic.go:37.3,37.55 1 1
+clean_arc/features/users/usecase/logic.go:34.95,36.4 1 0
+clean_arc/features/users/usecase/logic.go:43.61,45.16 2 0
+clean_arc/features/users/usecase/logic.go:49.2,49.17 1 0
+clean_arc/features/users/usecase/logic.go:45.16,47.3 1 0
+clean_arc/features/users/usecase/logic.go:52.77,54.16 2 0
+clean_arc/features/users/usecase/logic.go:58.2,58.18 1 0
+clean_arc/features/users/usecase/logic.go:54.16,56.3 1 0
